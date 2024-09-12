@@ -15,15 +15,14 @@ def main():
     elif ciudad==3:
         ciudad1= ("Cartagena")
     destino= int(input("seleccione el número de la ciudad de destino \n 1. Medellin \n 2. Bogotá \n 3. Cartagena \n")) 
-    llegada=destino
-    if llegada == origen:
+    if destino == origen:
         print("por favor elija un destino diferente al origen:")
         destino= int(input("seleccione el número de la ciudad de destino \n 1. Medellin \n 2. Bogotá \n 3. Cartagena \n")) 
-        if llegada ==1:
+        if destino ==1:
             destino1= ("Medellín")
-        elif llegada ==2:
+        elif destino ==2:
             destino1= ("Bogotá")
-        elif llegada ==3:
+        elif destino ==3:
             destino1= ("Cartagena")
     elif destino ==1:
         destino1= ("Medellín")
